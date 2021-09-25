@@ -98,6 +98,14 @@ class ViewController: UIViewController {
           completion: nil
         )
         
+//        UIView.animate(withDuration: 0.5, delay: 0.4,
+//          options: .repeat,
+//          animations: {
+//            self.password.center.x += self.view.bounds.width
+//          },
+//          completion: nil
+//        )
+        
         UIView.animate(withDuration: 0.5, delay: 0.4,
           options: [.repeat, .autoreverse],
           animations: {
