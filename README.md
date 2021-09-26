@@ -81,7 +81,7 @@ ___
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/springDamping.gif" width="200">  
 
 
-### UsingSpringWithDamping as 0,5 && InitialSpringVelocity as 1.0
+### UsingSpringWithDamping as 0.5 && InitialSpringVelocity as 1.0
   
 ```swift
         UIView.animate(withDuration: 3.5, delay: 0.5,
