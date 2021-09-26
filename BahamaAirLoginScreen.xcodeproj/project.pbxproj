@@ -14,6 +14,7 @@
 		7B00CCB927001263006E5C46 /* alpha.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B00CCB827001263006E5C46 /* alpha.gif */; };
 		7B00CCBB2700175C006E5C46 /* springDamping.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B00CCBA2700175C006E5C46 /* springDamping.gif */; };
 		7B00CCBD27001B5E006E5C46 /* initialSpringVelocity.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B00CCBC27001B5E006E5C46 /* initialSpringVelocity.gif */; };
+		7B00CCBF2700237F006E5C46 /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B00CCBE2700237F006E5C46 /* spinner.gif */; };
 		9C4319691A0C32D80085829B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4319681A0C32D80085829B /* AppDelegate.swift */; };
 		9C43196B1A0C32D80085829B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43196A1A0C32D80085829B /* ViewController.swift */; };
 		9C43196E1A0C32D90085829B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C43196C1A0C32D90085829B /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		7B00CCB827001263006E5C46 /* alpha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alpha.gif; sourceTree = "<group>"; };
 		7B00CCBA2700175C006E5C46 /* springDamping.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = springDamping.gif; sourceTree = "<group>"; };
 		7B00CCBC27001B5E006E5C46 /* initialSpringVelocity.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = initialSpringVelocity.gif; sourceTree = "<group>"; };
+		7B00CCBE2700237F006E5C46 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
 		9C4319631A0C32D80085829B /* BahamaAirLoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahamaAirLoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4319671A0C32D80085829B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C4319681A0C32D80085829B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		7B00CCAD26FF6B6F006E5C46 /* Gif */ = {
 			isa = PBXGroup;
 			children = (
+				7B00CCBE2700237F006E5C46 /* spinner.gif */,
 				7B00CCBC27001B5E006E5C46 /* initialSpringVelocity.gif */,
 				7B00CCBA2700175C006E5C46 /* springDamping.gif */,
 				7B00CCB827001263006E5C46 /* alpha.gif */,
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B00CCBF2700237F006E5C46 /* spinner.gif in Resources */,
 				7B00CCAF26FF6DA4006E5C46 /* autoreverse.gif in Resources */,
 				9C43196E1A0C32D90085829B /* Main.storyboard in Resources */,
 				9C4319731A0C32D90085829B /* LaunchScreen.xib in Resources */,
