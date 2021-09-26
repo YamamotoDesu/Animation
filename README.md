@@ -33,5 +33,38 @@ ___
 
 ___
 
+## Animation easing     
+### Repeating  && Autoreverse  && CurveEaseOut
+> .curveEaseOut: This option applies deceleration to the end of your animation. 
+```swift
+        UIView.animate(withDuration: 0.5, delay: 0.4,
+          options: [.repeat, .autoreverse, .curveEaseOut],
+          animations: {
+            self.password.center.x += self.view.bounds.width
+          },
+          completion: nil
+        )
+```
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/autoreverse.gif" width="200">  
+
+___
+
+
+### Repeating  && Autoreverse  && CurveEaseIn
+> .curveEaseIn: This option applies acceleration to the start of your animation.        
+```swift
+        UIView.animate(withDuration: 0.5, delay: 0.4,
+          options: [.repeat, .autoreverse],
+          animations: {
+            self.password.center.x += self.view.bounds.width
+          },
+          completion: nil
+        )
+```
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/autoreverse.gif" width="200">  
+
+___
+
+
 
 
