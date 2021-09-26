@@ -78,7 +78,7 @@ ___
           self.loginButton.alpha = 1.0
         }, completion: nil)
 ```
-<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/autoreverse.gif" width="200">  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/springDamping.gif" width="200">  
 
 ___
 
