@@ -1,6 +1,7 @@
 # Basic Animation 
 
-## Repeating   
+## Animation options    
+### Repeating   
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/repeat.gif" width="200">   
 
 ```swift
@@ -13,7 +14,7 @@
         )
 ``` 
 
-## Repeating  && Autoreverse
+### Repeating  && Autoreverse
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/autoreverse.gif" width="200">   
 
 ```swift
