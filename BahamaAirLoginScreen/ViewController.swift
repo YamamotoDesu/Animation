@@ -162,7 +162,7 @@ class ViewController: UIViewController {
         }
         
         UIView.animate(withDuration: 3.5, delay: 0.5,
-        usingSpringWithDamping: 0.5, initialSpringVelocity: 0.0, options: [], animations: {
+        usingSpringWithDamping: 0.5, initialSpringVelocity: 1.0, options: [], animations: {
           self.loginButton.center.y -= 30.0
           self.loginButton.alpha = 1.0
         }, completion: nil)
