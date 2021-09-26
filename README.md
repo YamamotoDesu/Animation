@@ -115,4 +115,6 @@ ___
     }
 ```
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/spinner.gif" width="200">  
+
 ___
+
