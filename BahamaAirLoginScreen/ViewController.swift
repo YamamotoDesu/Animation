@@ -82,6 +82,11 @@ class ViewController: UIViewController {
         username.center.x -= view.bounds.width
         password.center.x -= view.bounds.width
         
+        cloud1.alpha = 0.0
+        cloud2.alpha = 0.0
+        cloud3.alpha = 0.0
+        cloud4.alpha = 0.0
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -136,6 +141,22 @@ class ViewController: UIViewController {
           },
           completion: nil
         )
+        
+        UIView.animate(withDuration: 2.5) {
+            self.cloud1.alpha = 1.0
+        }
+        
+        UIView.animate(withDuration: 3.5) {
+            self.cloud2.alpha = 1.0
+        }
+        
+        UIView.animate(withDuration: 3.5) {
+            self.cloud4.alpha = 1.0
+        }
+        
+        UIView.animate(withDuration: 3.5) {
+            self.cloud4.alpha = 1.0
+        }
 
     }
     
