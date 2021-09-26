@@ -106,14 +106,37 @@ class ViewController: UIViewController {
 //          completion: nil
 //        )
         
-        UIView.animate(withDuration: 0.5, delay: 0.4,
-          options: [.repeat, .autoreverse],
+//        UIView.animate(withDuration: 0.5, delay: 0.4,
+//          options: [.repeat, .autoreverse],
+//          animations: {
+//            self.password.center.x += self.view.bounds.width
+//          },
+//          completion: nil
+//        )
+        
+//        UIView.animate(withDuration: 0.5, delay: 0.4,
+//          options: [.repeat, .autoreverse, .curveEaseOut],
+//          animations: {
+//            self.password.center.x += self.view.bounds.width
+//          },
+//          completion: nil
+//        )
+  
+//        UIView.animate(withDuration: 0.5, delay: 0.4,
+//          options: [.repeat, .autoreverse, .curveEaseIn],
+//          animations: {
+//            self.password.center.x += self.view.bounds.width
+//          },
+//          completion: nil
+//        )
+        
+        UIView.animate(withDuration: 0.5, delay: 0.4, options: [],
           animations: {
             self.password.center.x += self.view.bounds.width
           },
           completion: nil
         )
-        
+
     }
     
     // MARK: further methods
