@@ -80,7 +80,6 @@ ___
 ```
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/springDamping.gif" width="200">  
 
-
 ### UsingSpringWithDamping as 0.5 && InitialSpringVelocity as 1.0
   
 ```swift
@@ -92,4 +91,28 @@ ___
 ```
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/initialSpringVelocity.gif" width="200">  
 
+### UsingSpringWithDamping as 0.2 && InitialSpringVelocity as 0.0
+
+```swift
+
+    let spinner = UIActivityIndicatorView(style: .whiteLarge)
+    
+    @IBAction func login() {
+        view.endEditing(true)
+        UIView.animate(withDuration: 1.5, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 0.0, options: [], animations: {
+            self.loginButton.bounds.size.width += 80.0
+            
+            self.loginButton.backgroundColor =
+            UIColor(red: 0.85, green: 0.83, blue: 0.45, alpha: 1.0)
+            
+            self.spinner.center = CGPoint(
+              x: 40.0,
+              y: self.loginButton.frame.size.height/2
+            )
+            self.spinner.alpha = 1.0
+        }, completion: nil)
+        
+    }
+```
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/spinner.gif" width="200">  
 ___
