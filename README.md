@@ -136,7 +136,7 @@ transitionFlipFromLeft:
 
 transitionFlipFromRight:   
 > A transition that flips a view around its vertical axis from right to left (the right side of the view moves toward the front and left side toward the back).  
-<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromLeft.gif" width="200">  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromRight.gif" width="200">  
 
 transitionCurlUp:  
 > A transition that curls a view up from the bottom.   
