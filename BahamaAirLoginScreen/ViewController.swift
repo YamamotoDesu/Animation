@@ -206,15 +206,15 @@ class ViewController: UIViewController {
         label.text = messages[index]
         
         UIView.transition(
-            with: status, duration: 0.33,
+            with: status, duration: 1.2,
 //            options: .transitionFlipFromLeft,
 //            options: .transitionFlipFromRight,
 //            options: .transitionCurlUp,
 //            options: .transitionCurlDown,
 //            options: .transitionCrossDissolve,
-//            options: .transitionFlipFromTop,
-//            options: .transitionFlipFromBottom,
-            options: [.curveEaseOut, .transitionCurlDown],
+//           options: .transitionFlipFromTop,
+            options: .transitionFlipFromBottom,
+//            options: [.curveEaseOut, .transitionCurlDown],
             animations: { self.status.isHidden = false },
             completion: { _ in
                 delay(2.0) {
