@@ -207,6 +207,12 @@ class ViewController: UIViewController {
         
         UIView.transition(
             with: status, duration: 0.33,
+//            options: .transitionFlipFromLeft,
+//            options: .transitionFlipFromRight,
+//            options: .transitionCurlUp,
+//            options: .transitionCrossDissolve,
+//            options: .transitionFlipFromTop,
+//            options: .transitionFlipFromBottom,
             options: [.curveEaseOut, .transitionCurlDown],
             animations: { self.status.isHidden = false },
             completion: { _ in
