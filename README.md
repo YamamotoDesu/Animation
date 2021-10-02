@@ -122,20 +122,29 @@ ___
 ## Transitions  
 Transitions are predefined animations you can apply to views.   
 The full list of predefined transition animation options are as follows:
+
 transitionFlipFromLeft
 > A transition that flips a view around its vertical axis from left to right (the left side of the view moves toward the front and right side toward the back).  
+
 transitionFlipFromRight  
 > A transition that flips a view around its vertical axis from right to left (the right side of the view moves toward the front and left side toward the back).  
+
 transitionCurlUp 
 > A transition that curls a view up from the bottom.    
+
 transitionCurlDown 
-> A transition that curls a view down from the top.
+> A transition that curls a view down from the top. 
+
 transitionCrossDissolve  
-> A transition that dissolves from one view to the next. 
+> A transition that dissolves from one view to the next.  
+
 transitionFlipFromTop  
 > A transition that flips a view around its horizontal axis from top to bottom (the top side of the view moves toward the front and the bottom side toward the back).  
+
 transitionFlipFromBottom  
 > A transition that flips a view around its horizontal axis from bottom to top (the bottom side of the view moves toward the front and the top side toward the back). 
+
+
 ```swift
         UIView.animate(withDuration: 3.5, delay: 0.5,
         usingSpringWithDamping: 0.5, initialSpringVelocity: 0.0, options: [], animations: {
