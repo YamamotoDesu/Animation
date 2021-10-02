@@ -131,7 +131,7 @@ The full list of predefined transition animation options are as follows:
           self.loginButton.alpha = 1.0
         }, completion: nil)
 ```
-<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transaction.gif" width="200">  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transition.gif" width="200">  
 
 
 ___
