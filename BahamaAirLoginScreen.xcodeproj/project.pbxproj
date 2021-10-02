@@ -17,12 +17,12 @@
 		7B00CCBF2700237F006E5C46 /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B00CCBE2700237F006E5C46 /* spinner.gif */; };
 		7B8BE7FF27083C29008D6FF5 /* transition.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE7FE27083C29008D6FF5 /* transition.gif */; };
 		7B8BE81127084A38008D6FF5 /* transitionFlipFromLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE81027084A37008D6FF5 /* transitionFlipFromLeft.gif */; };
-		7B8BE81327084A43008D6FF5 /* transitionFlipFromRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE81227084A43008D6FF5 /* transitionFlipFromRight.gif */; };
 		7B8BE81527084A9D008D6FF5 /* transitionCurlUp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE81427084A9D008D6FF5 /* transitionCurlUp.gif */; };
 		7B8BE81727084B02008D6FF5 /* transitionCurlDown.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE81627084B02008D6FF5 /* transitionCurlDown.gif */; };
 		7B8BE81927084B50008D6FF5 /* transitionCrossDissolve.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE81827084B50008D6FF5 /* transitionCrossDissolve.gif */; };
 		7B8BE81B27084BDF008D6FF5 /* transitionFlipFromTop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE81A27084BDF008D6FF5 /* transitionFlipFromTop.gif */; };
 		7B8BE81D27084C64008D6FF5 /* transitionFlipFromBottom.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE81C27084C64008D6FF5 /* transitionFlipFromBottom.gif */; };
+		7B8BE82127084DAF008D6FF5 /* transitionFlipFromRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B8BE82027084DAF008D6FF5 /* transitionFlipFromRight.gif */; };
 		9C4319691A0C32D80085829B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4319681A0C32D80085829B /* AppDelegate.swift */; };
 		9C43196B1A0C32D80085829B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43196A1A0C32D80085829B /* ViewController.swift */; };
 		9C43196E1A0C32D90085829B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C43196C1A0C32D90085829B /* Main.storyboard */; };
@@ -41,12 +41,12 @@
 		7B00CCBE2700237F006E5C46 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
 		7B8BE7FE27083C29008D6FF5 /* transition.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transition.gif; sourceTree = "<group>"; };
 		7B8BE81027084A37008D6FF5 /* transitionFlipFromLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionFlipFromLeft.gif; sourceTree = "<group>"; };
-		7B8BE81227084A43008D6FF5 /* transitionFlipFromRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionFlipFromRight.gif; sourceTree = "<group>"; };
 		7B8BE81427084A9D008D6FF5 /* transitionCurlUp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionCurlUp.gif; sourceTree = "<group>"; };
 		7B8BE81627084B02008D6FF5 /* transitionCurlDown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionCurlDown.gif; sourceTree = "<group>"; };
 		7B8BE81827084B50008D6FF5 /* transitionCrossDissolve.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionCrossDissolve.gif; sourceTree = "<group>"; };
 		7B8BE81A27084BDF008D6FF5 /* transitionFlipFromTop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionFlipFromTop.gif; sourceTree = "<group>"; };
 		7B8BE81C27084C64008D6FF5 /* transitionFlipFromBottom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionFlipFromBottom.gif; sourceTree = "<group>"; };
+		7B8BE82027084DAF008D6FF5 /* transitionFlipFromRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = transitionFlipFromRight.gif; sourceTree = "<group>"; };
 		9C4319631A0C32D80085829B /* BahamaAirLoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BahamaAirLoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4319671A0C32D80085829B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C4319681A0C32D80085829B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,12 +70,12 @@
 		7B00CCAD26FF6B6F006E5C46 /* Gif */ = {
 			isa = PBXGroup;
 			children = (
+				7B8BE82027084DAF008D6FF5 /* transitionFlipFromRight.gif */,
 				7B8BE81A27084BDF008D6FF5 /* transitionFlipFromTop.gif */,
 				7B8BE81C27084C64008D6FF5 /* transitionFlipFromBottom.gif */,
 				7B8BE81827084B50008D6FF5 /* transitionCrossDissolve.gif */,
 				7B8BE81627084B02008D6FF5 /* transitionCurlDown.gif */,
 				7B8BE81427084A9D008D6FF5 /* transitionCurlUp.gif */,
-				7B8BE81227084A43008D6FF5 /* transitionFlipFromRight.gif */,
 				7B8BE81027084A37008D6FF5 /* transitionFlipFromLeft.gif */,
 				7B8BE7FE27083C29008D6FF5 /* transition.gif */,
 				7B00CCBE2700237F006E5C46 /* spinner.gif */,
@@ -190,10 +190,10 @@
 				7B00CCBF2700237F006E5C46 /* spinner.gif in Resources */,
 				7B00CCAF26FF6DA4006E5C46 /* autoreverse.gif in Resources */,
 				7B8BE81127084A38008D6FF5 /* transitionFlipFromLeft.gif in Resources */,
+				7B8BE82127084DAF008D6FF5 /* transitionFlipFromRight.gif in Resources */,
 				7B8BE81D27084C64008D6FF5 /* transitionFlipFromBottom.gif in Resources */,
 				7B8BE81727084B02008D6FF5 /* transitionCurlDown.gif in Resources */,
 				7B8BE81B27084BDF008D6FF5 /* transitionFlipFromTop.gif in Resources */,
-				7B8BE81327084A43008D6FF5 /* transitionFlipFromRight.gif in Resources */,
 				9C43196E1A0C32D90085829B /* Main.storyboard in Resources */,
 				9C4319731A0C32D90085829B /* LaunchScreen.xib in Resources */,
 				7B00CCB927001263006E5C46 /* alpha.gif in Resources */,
