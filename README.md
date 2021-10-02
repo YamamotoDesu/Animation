@@ -132,24 +132,31 @@ The full list of predefined transition animation options are as follows:
 
 transitionFlipFromLeft: 
 > A transition that flips a view around its vertical axis from left to right (the left side of the view moves toward the front and right side toward the back).  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromLeft.gif" width="200">  
 
 transitionFlipFromRight:   
 > A transition that flips a view around its vertical axis from right to left (the right side of the view moves toward the front and left side toward the back).  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromLeft.gif" width="200">  
 
 transitionCurlUp:  
-> A transition that curls a view up from the bottom.    
+> A transition that curls a view up from the bottom.   
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionCurlUp.gif" width="200">  
 
 transitionCurlDown:  
 > A transition that curls a view down from the top. 
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionCurlDown.gif" width="200">  
 
 transitionCrossDissolve:   
 > A transition that dissolves from one view to the next.  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionCrossDissolve.gif" width="200">  
 
 transitionFlipFromTop:   
 > A transition that flips a view around its horizontal axis from top to bottom (the top side of the view moves toward the front and the bottom side toward the back).  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromTop.gif" width="200">  
 
 transitionFlipFromBottom:   
 > A transition that flips a view around its horizontal axis from bottom to top (the bottom side of the view moves toward the front and the top side toward the back). 
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromBottom.gif" width="200">  
 
 
 ```swift
