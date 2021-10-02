@@ -210,6 +210,7 @@ class ViewController: UIViewController {
 //            options: .transitionFlipFromLeft,
 //            options: .transitionFlipFromRight,
 //            options: .transitionCurlUp,
+//            options: .transitionCurlDown,
 //            options: .transitionCrossDissolve,
 //            options: .transitionFlipFromTop,
 //            options: .transitionFlipFromBottom,
