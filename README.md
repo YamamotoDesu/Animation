@@ -3,7 +3,8 @@
 ## Animation options    
 
 ### Repeating   
->  repeat: Include this option to makes your animation loop forever. 
+repeat: 
+> Include this option to makes your animation loop forever. 
 ```swift
         UIView.animate(withDuration: 0.5, delay: 0.4,
           options: .repeat,
@@ -19,7 +20,8 @@ ___
 
 
 ### Repeating  && Autoreverse   
-> .autoreverse: Include this option only in conjunction with .repeat; this option repeatedly plays your animation forward, then in reverse. 
+autoreverse: 
+> Include this option only in conjunction with .repeat; this option repeatedly plays your animation forward, then in reverse. 
 ```swift
         UIView.animate(withDuration: 0.5, delay: 0.4,
           options: [.repeat, .autoreverse],
@@ -35,7 +37,8 @@ ___
 
 ## Animation easing     
 ### Repeating  && Autoreverse  && CurveEaseOut
-> .curveEaseOut: This option applies deceleration to the end of your animation. 
+curveEaseOut: 
+> This option applies deceleration to the end of your animation. 
 ```swift
         UIView.animate(withDuration: 0.5, delay: 0.4,
           options: [.repeat, .autoreverse, .curveEaseOut],
@@ -51,7 +54,8 @@ ___
 
 
 ### Repeating  && Autoreverse  && CurveEaseIn
-> .curveEaseIn: This option applies acceleration to the start of your animation.        
+curveEaseIn: 
+> This option applies acceleration to the start of your animation.        
 ```swift
         UIView.animate(withDuration: 0.5, delay: 0.4,
           options: [.repeat, .autoreverse],
@@ -69,8 +73,11 @@ ___
 
 ## Spring animations    
 ### UsingSpringWithDamping as 0.5 && InitialSpringVelocity as 0.0
-> usingSpringWithDamping: This controls the amount of damping, or reduction, applied to the animation as it approaches its final state. This parameter accepts values between 0.0 and 1.0. Values closer to 0.0 create a bouncier animation, while values closer to 1.0 create a stiff-looking effect. You can think of this value as the “stiffness” of the spring.    
-> initialSpringVelocity: This controls the initial velocity of the animation. A value of 1.0 sets the initial velocity of the animation to cover the total distance in the span of one second. Bigger and smaller values will cause the animation to have more or less velocity, and will affect how the spring settles. Note however that the initial velocity is soon amended by the spring calculation, and the animation will always finish by the end of duration.     
+usingSpringWithDamping: 
+> This controls the amount of damping, or reduction, applied to the animation as it approaches its final state. This parameter accepts values between 0.0 and 1.0. Values closer to 0.0 create a bouncier animation, while values closer to 1.0 create a stiff-looking effect. You can think of this value as the “stiffness” of the spring. 
+   
+initialSpringVelocity: 
+> This controls the initial velocity of the animation. A value of 1.0 sets the initial velocity of the animation to cover the total distance in the span of one second. Bigger and smaller values will cause the animation to have more or less velocity, and will affect how the spring settles. Note however that the initial velocity is soon amended by the spring calculation, and the animation will always finish by the end of duration.     
 ```swift
         UIView.animate(withDuration: 3.5, delay: 0.5,
         usingSpringWithDamping: 0.5, initialSpringVelocity: 0.0, options: [], animations: {
@@ -123,25 +130,25 @@ ___
 Transitions are predefined animations you can apply to views.   
 The full list of predefined transition animation options are as follows:
 
-transitionFlipFromLeft
+transitionFlipFromLeft: 
 > A transition that flips a view around its vertical axis from left to right (the left side of the view moves toward the front and right side toward the back).  
 
-transitionFlipFromRight  
+transitionFlipFromRight:   
 > A transition that flips a view around its vertical axis from right to left (the right side of the view moves toward the front and left side toward the back).  
 
-transitionCurlUp 
+transitionCurlUp:  
 > A transition that curls a view up from the bottom.    
 
-transitionCurlDown 
+transitionCurlDown:  
 > A transition that curls a view down from the top. 
 
-transitionCrossDissolve  
+transitionCrossDissolve:   
 > A transition that dissolves from one view to the next.  
 
-transitionFlipFromTop  
+transitionFlipFromTop:   
 > A transition that flips a view around its horizontal axis from top to bottom (the top side of the view moves toward the front and the bottom side toward the back).  
 
-transitionFlipFromBottom  
+transitionFlipFromBottom:   
 > A transition that flips a view around its horizontal axis from bottom to top (the bottom side of the view moves toward the front and the top side toward the back). 
 
 
