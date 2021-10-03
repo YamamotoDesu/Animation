@@ -136,7 +136,7 @@ transitionFlipFromLeft:
 
 transitionFlipFromRight:   
 > A transition that flips a view around its vertical axis from right to left (the right side of the view moves toward the front and left side toward the back).  
-<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromLeft.gif" width="200">  
+<img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromRight.gif" width="200">  
 
 transitionCurlUp:  
 > A transition that curls a view up from the bottom.   
@@ -158,13 +158,44 @@ transitionFlipFromBottom:
 > A transition that flips a view around its horizontal axis from bottom to top (the bottom side of the view moves toward the front and the top side toward the back). 
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transitionFlipFromBottom.gif" width="200">  
 
+### Mixing in transitions
 
 ```swift
-        UIView.animate(withDuration: 3.5, delay: 0.5,
-        usingSpringWithDamping: 0.5, initialSpringVelocity: 0.0, options: [], animations: {
-          self.loginButton.center.y -= 30.0
-          self.loginButton.alpha = 1.0
-        }, completion: nil)
+  let messages = ["Connecting ...", "Authorizing ...", "Sending credentials ...", "Failed"]
+  let status = UIImageView(image: UIImage(named: "banner"))
+  
+  func showMessage(index: Int) {
+        label.text = messages[index]
+        
+        UIView.transition(
+            with: status, duration: 1.2,
+            options: [.curveEaseOut, .transitionCurlDown],
+            animations: { self.status.isHidden = false },
+            completion: { _ in
+                delay(2.0) {
+                    if index < self.messages.count-1 {
+                        self.removeMessage(index: index)
+                    } else {
+                        //reset form
+                    }
+                }
+            }
+        )
+    }
+    
+    func removeMessage(index: Int) {
+      UIView.animate(withDuration: 0.33, delay: 0.0, options: [],
+        animations: {
+          self.status.center.x += self.view.frame.size.width
+        },
+        completion: { _ in
+          self.status.isHidden = true
+          self.status.center = self.statusPosition
+
+          self.showMessage(index: index+1)
+        }
+      )
+    }
 ```
 <img src="https://github.com/YamamotoDesu/Animation/blob/main/BahamaAirLoginScreen/transition.gif" width="200">  
 
