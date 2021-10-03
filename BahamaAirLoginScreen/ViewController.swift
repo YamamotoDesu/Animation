@@ -208,20 +208,20 @@ class ViewController: UIViewController {
         UIView.transition(
             with: status, duration: 1.2,
 //            options: .transitionFlipFromLeft,
-            options: .transitionFlipFromRight,
+//            options: .transitionFlipFromRight,
 //            options: .transitionCurlUp,
 //            options: .transitionCurlDown,
 //            options: .transitionCrossDissolve,
 //           options: .transitionFlipFromTop,
 //            options: .transitionFlipFromBottom,
-//            options: [.curveEaseOut, .transitionCurlDown],
+            options: [.curveEaseOut, .transitionCurlDown],
             animations: { self.status.isHidden = false },
             completion: { _ in
                 delay(2.0) {
                     if index < self.messages.count-1 {
                         self.removeMessage(index: index)
                     } else {
-                        //reset form
+                        self.resetForm()
                     }
                 }
             }
@@ -229,7 +229,7 @@ class ViewController: UIViewController {
     }
     
     func removeMessage(index: Int) {
-      UIView.animate(withDuration: 0.33, delay: 0.0, options: [],
+      UIView.animate(withDuration: 0.33, delay: 0.0, options: [.transitionFlipFromTop],
         animations: {
           self.status.center.x += self.view.frame.size.width
         },
@@ -242,6 +242,28 @@ class ViewController: UIViewController {
       )
     }
 
-
+    func resetForm() {
+        
+        UIView.animate(
+            withDuration: 0.2,
+            delay: 0.0,
+            options: [.curveEaseOut, .transitionFlipFromTop],
+            animations: {
+                self.loginButton.center.y -= 60
+            },
+            completion: { _ in
+                self.status.isHidden = true
+                self.loginButton.backgroundColor =
+                UIColor(red: 0.63, green: 0.84, blue: 0.35, alpha: 1.0)
+                self.loginButton.bounds.size.width -= 80.0
+               
+                self.spinner.frame = CGRect(x: -20.0, y: 16.0, width: 20.0, height: 20.0)
+                self.spinner.startAnimating()
+                self.spinner.alpha = 0.0
+                
+            }
+        )
+        
+    }
     
 }
